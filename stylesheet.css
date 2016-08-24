@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background:#9F9F9F url(images/hintergrund2.jpg) repeat-x left top;
+}
+
+div.grundflaeche
+{
+	position: relative;
+	width: 1000px;
+	left: 50%;
+	margin-left: -500px;
+	margin-top: 0px;
+	padding: 0px;
+	background-color:#F5F5F5;
+}
+
+div.header
+{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.menu
+{
+	position:absolute;
+	width: 100%;
+	height: 60px;
+	bottom:0px;
+	color:#FFF;
+}
+
+div.textflaeche
+{
+	position: relative;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+div.textflaecheLinks
+{
+ 	width:300px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+div.textflaecheRechts
+{
+	width:700px;
+	padding: 0px;
+	margin: 0px;
+	float: right;
+}
+
+div.praxisAnschrift
+{
+	padding-top: 5px;
+	padding-left: 5px;
+	color:#006;
+}
+
+div.praxisSprechzeiten
+{
+	padding-top: 15px;
+	padding-left: 5px; color: MidnightBlue;
+}
+
+div.fuss
+{
+	position: relative;
+	width: 100%;
+	height: 25px;
+	margin: 0px;
+	padding-top: 0px;
+	border-top:1px solid #001463;	
+	text-align: center;
+}
+
+.ueberschrift1
+{ 
+	position: relative;
+	width: 700;
+	height: 30px;
+	margin-top:25px;
+	padding-top:5px;
+	padding-left:2px;
+	font-size: 14px;
+	background: url(images/verlaufUeberschrift1.png) no-repeat;
+}
+
+.ueberschrift2
+{ 
+	position: relative;
+	width: 300;
+	height: 25px;
+	padding-top:2px;
+	padding-left:2px;
+	font-size: 14px;
+	background: url(images/verlaufUeberschrift2a.png) no-repeat;
+	color: #FFF;
+}
+	
+.button
+{
+	display:block;
+	width:175px;
+	height:60px;
+	margin:0px;
+	padding-top:20px;
+	color:#fff;
+	font-size:16px;
+	text-decoration:none;
+	float:right;
+}
+
+.buttonAktiv 
+{
+	display:block;
+	width:175px;
+	height:60px;
+	margin:0px;
+	padding-top:20px;
+	color:#fff;
+	font-size:16px;
+	alignment-adjust:middle;
+	text-decoration:none;
+	background-image:url(images/button3.png);
+	float:right;
+}
+
+.button:hover
+{
+	background-image:url(images/button3.png);
+}
+
+.button:active
+{
+	background-image:url(images/button_active.gif);
+	color:#fff;
+}
+
+td
+{
+	margin:0px;
+	vertical-align:top;
+	padding:0px;
+}
+
+p
+{
+	margin-top:5px;
+	margin-bottom:2px;
+	margin-left:2px;
+	margin-right:2px;
+	padding:0px;
+}
